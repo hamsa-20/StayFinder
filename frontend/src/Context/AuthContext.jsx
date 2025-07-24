@@ -1,7 +1,7 @@
 import React, { createContext, useState } from 'react'
 export const authDataContext = createContext()
 function AuthContext({children}) {
-    const serverUrl = "https://stayfinder-1jr0.onrender.com"
+    const serverUrl = "https://stayfinder2-xspp.onrender.com"
 
     let [loading,setLoading]=useState(false)
 
